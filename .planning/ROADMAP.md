@@ -99,9 +99,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — Social + SDK skills: `twitter-automation` (OAuth 1.0a HMAC-SHA1 via Node.js helper), `javascript-sdk` (guide), `python-sdk` (guide)
+- [x] 05-01-PLAN.md — Social + SDK skills: `twitter-automation` (OAuth 1.0a HMAC-SHA1 via Node.js helper), `javascript-sdk` (guide), `python-sdk` (guide)
 - [ ] 05-02-PLAN.md — UI skills: `agent-ui`, `chat-ui`, `tools-ui`, `widgets-ui` (todos guides, allowed-tools: [])
-- [ ] 05-03-PLAN.md — CLI `npx pocket-knife init`: `cli/package.json` (ESM), `cli/bin/init.js`, validacao de chaves (SETUP-01, SETUP-04)
+- [x] 05-03-PLAN.md — CLI `npx pocket-knife init`: `cli/package.json` (ESM), `cli/bin/init.js`, validacao de chaves (SETUP-01, SETUP-04)
 
 ## Progress
 
@@ -114,4 +114,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
 | 3. Image, LLM, Search e Guides | 3/3 | Complete   | 2026-03-26 |
 | 4. Audio e Video | 3/3 | Complete   | 2026-03-26 |
-| 5. Social, UI, SDK e CLI | 0/3 | Not started | - |
+| 5. Social, UI, SDK e CLI | 2/3 | In Progress|  |

@@ -60,12 +60,12 @@
 
 ### Skills — Social
 
-- [ ] **SOC-01**: Skill `twitter-automation` — automação Twitter/X com `disable-model-invocation: true` (chave: requer OAuth v2)
+- [x] **SOC-01**: Skill `twitter-automation` — automação Twitter/X com `disable-model-invocation: true` (chave: requer OAuth v2)
 
 ### Skills — SDK
 
-- [ ] **SDK-01**: Skill `javascript-sdk` — guia/template para SDK JavaScript
-- [ ] **SDK-02**: Skill `python-sdk` — guia/template para SDK Python
+- [x] **SDK-01**: Skill `javascript-sdk` — guia/template para SDK JavaScript
+- [x] **SDK-02**: Skill `python-sdk` — guia/template para SDK Python
 
 ### Skills — UI
 
@@ -180,9 +180,9 @@
 | VID-01 | Phase 4 | Complete |
 | VID-03 | Phase 4 | Complete |
 | VID-04 | Phase 4 | Complete |
-| SOC-01 | Phase 5 | Pending |
-| SDK-01 | Phase 5 | Pending |
-| SDK-02 | Phase 5 | Pending |
+| SOC-01 | Phase 5 | Complete |
+| SDK-01 | Phase 5 | Complete |
+| SDK-02 | Phase 5 | Complete |
 | UI-01 | Phase 5 | Pending |
 | UI-02 | Phase 5 | Pending |
 | UI-03 | Phase 5 | Pending |
