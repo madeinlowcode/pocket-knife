@@ -16,10 +16,10 @@
 
 ### Setup & Onboarding
 
-- [ ] **SETUP-01**: CLI interativa via `npx pocket-knife init` que cria `~/.claude/.env` perguntando chaves por categoria de skill
+- [x] **SETUP-01**: CLI interativa via `npx pocket-knife init` que cria `~/.claude/.env` perguntando chaves por categoria de skill
 - [x] **SETUP-02**: Skill `/pocket-knife:setup` para configuração conversacional do `~/.claude/.env` dentro do Claude Code
 - [x] **SETUP-03**: Resolução híbrida de chaves: env var existente → `~/.claude/.env` → mensagem guiando para setup
-- [ ] **SETUP-04**: Validação de chaves durante setup (teste rápido de autenticação com cada provedor)
+- [x] **SETUP-04**: Validação de chaves durante setup (teste rápido de autenticação com cada provedor)
 
 ### Skills — Imagem (9 skills)
 
@@ -187,8 +187,8 @@
 | UI-02 | Phase 5 | Pending |
 | UI-03 | Phase 5 | Pending |
 | UI-04 | Phase 5 | Pending |
-| SETUP-01 | Phase 5 | Pending |
-| SETUP-04 | Phase 5 | Pending |
+| SETUP-01 | Phase 5 | Complete |
+| SETUP-04 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 58 total (todos os IDs explícitos mapeados)
