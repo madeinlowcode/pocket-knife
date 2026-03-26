@@ -12,15 +12,14 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Script loader centralizado que lê `~/.claude/.env` uma vez e disponibiliza as variáveis de ambiente para as skills
+- [x] Skills de áudio ElevenLabs: elevenlabs-tts, elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects, elevenlabs-voice-cloner, elevenlabs-voice-changer, elevenlabs-music, elevenlabs-dubbing, elevenlabs-voice-isolator (9 skills, AUD-02 a AUD-10)
+- [x] Skills de vídeo fal.ai: ai-video-generation (Kling 1.6), image-to-video (Wan 2.2 5B), p-video (Seedance 1.0 Lite) + google-veo existente (VID-01, VID-03, VID-04)
 
 ### Active
 
-- [ ] Script loader centralizado que lê `~/.claude/.env` uma vez e disponibiliza as variáveis de ambiente para as skills
 - [ ] 85+ skills portadas do inference.sh, substituindo chamadas `infsh app run` por chamadas diretas às APIs dos provedores
 - [ ] Skills de imagem: ai-image-generation, background-removal, flux-image, image-upscaling, nano-banana, nano-banana-2, p-image, qwen-image-2, qwen-image-2-pro
-- [ ] Skills de vídeo: ai-video-generation, google-veo, image-to-video + demais modelos de vídeo
-- [ ] Skills de áudio: elevenlabs-tts, elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects, elevenlabs-voice-cloner, elevenlabs-voice-changer, elevenlabs-music, elevenlabs-dubbing
 - [ ] Skills de LLM: llm-models (Claude, Gemini, Kimi, GLM)
 - [ ] Skills de web search: web-search (Tavily, Exa)
 - [ ] Skills de social: twitter-automation
