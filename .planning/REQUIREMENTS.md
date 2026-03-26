@@ -141,7 +141,7 @@
 | SETUP-03 | Phase 1 | Pending |
 | QUAL-01 | Phase 1 | Pending |
 | QUAL-02 | Phase 1 | Pending |
-| QUAL-03 | Phase 1 | Pending |
+| QUAL-03 | Phase 2 | Pending |
 | QUAL-04 | Phase 1 | Pending |
 | QUAL-05 | Phase 1 | Pending |
 | QUAL-06 | Phase 1 | Pending |
