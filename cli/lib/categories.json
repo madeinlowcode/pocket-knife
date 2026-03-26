@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "id": "image",
+      "name": "Image Generation",
+      "description": "Generate images with Gemini Imagen, FLUX, Qwen",
+      "providers": [
+        { "name": "Google Gemini", "envVar": "GOOGLE_API_KEY", "required": true, "hint": "Google AI Studio: https://aistudio.google.com/app/apikey" },
+        { "name": "fal.ai (FLUX, upscaling, background removal)", "envVar": "FAL_KEY", "required": false, "hint": "fal.ai dashboard: https://fal.ai/dashboard/keys" },
+        { "name": "Alibaba DashScope (Qwen Image)", "envVar": "DASHSCOPE_API_KEY", "required": false, "hint": "DashScope console: https://dashscope.console.aliyun.com/apiKey" }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio (ElevenLabs)",
+      "description": "Text-to-speech, speech-to-text, voice cloning, music generation",
+      "providers": [
+        { "name": "ElevenLabs", "envVar": "ELEVENLABS_API_KEY", "required": true, "hint": "ElevenLabs profile: https://elevenlabs.io/app/settings/api-keys" }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "Video Generation",
+      "description": "Generate videos with Kling, Wan, Seedance via fal.ai",
+      "providers": [
+        { "name": "fal.ai (video models)", "envVar": "FAL_KEY", "required": true, "hint": "fal.ai dashboard: https://fal.ai/dashboard/keys" }
+      ]
+    },
+    {
+      "id": "llm",
+      "name": "LLM & Chat",
+      "description": "Access Claude, Gemini, Kimi, GLM language models",
+      "providers": [
+        { "name": "Google Gemini", "envVar": "GOOGLE_API_KEY", "required": false, "hint": "Google AI Studio: https://aistudio.google.com/app/apikey" },
+        { "name": "Alibaba DashScope (Qwen LLM)", "envVar": "DASHSCOPE_API_KEY", "required": false, "hint": "DashScope console: https://dashscope.console.aliyun.com/apiKey" }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Web Search",
+      "description": "Search the web with Tavily and Exa",
+      "providers": [
+        { "name": "Tavily", "envVar": "TAVILY_API_KEY", "required": false, "hint": "Tavily dashboard: https://app.tavily.com/home" },
+        { "name": "Exa", "envVar": "EXA_API_KEY", "required": false, "hint": "Exa dashboard: https://dashboard.exa.ai/api-keys" }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social Media (Twitter/X)",
+      "description": "Post tweets, like, retweet via X API v2",
+      "providers": [
+        { "name": "Twitter/X Consumer Key", "envVar": "X_CONSUMER_KEY", "required": true, "hint": "X Developer Portal: https://developer.x.com/en/portal/dashboard" },
+        { "name": "Twitter/X Consumer Secret", "envVar": "X_CONSUMER_SECRET", "required": true, "hint": "Same location as Consumer Key" },
+        { "name": "Twitter/X Access Token", "envVar": "X_ACCESS_TOKEN", "required": true, "hint": "X Developer Portal > App > Keys & Tokens" },
+        { "name": "Twitter/X Access Token Secret", "envVar": "X_ACCESS_TOKEN_SECRET", "required": true, "hint": "Same location as Access Token" }
+      ]
+    }
+  ]
+}
