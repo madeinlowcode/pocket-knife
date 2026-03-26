@@ -17,8 +17,8 @@
 ### Setup & Onboarding
 
 - [ ] **SETUP-01**: CLI interativa via `npx pocket-knife init` que cria `~/.claude/.env` perguntando chaves por categoria de skill
-- [ ] **SETUP-02**: Skill `/pocket-knife:setup` para configuração conversacional do `~/.claude/.env` dentro do Claude Code
-- [ ] **SETUP-03**: Resolução híbrida de chaves: env var existente → `~/.claude/.env` → mensagem guiando para setup
+- [x] **SETUP-02**: Skill `/pocket-knife:setup` para configuração conversacional do `~/.claude/.env` dentro do Claude Code
+- [x] **SETUP-03**: Resolução híbrida de chaves: env var existente → `~/.claude/.env` → mensagem guiando para setup
 - [ ] **SETUP-04**: Validação de chaves durante setup (teste rápido de autenticação com cada provedor)
 
 ### Skills — Imagem (9 skills)
@@ -86,12 +86,12 @@
 
 ### Quality & Safety
 
-- [ ] **QUAL-01**: Todas as skills com side effects usam `disable-model-invocation: true`
-- [ ] **QUAL-02**: Todas as skills usam `allowed-tools: Bash(curl *)` em vez de `Bash(*)`
+- [x] **QUAL-01**: Todas as skills com side effects usam `disable-model-invocation: true`
+- [x] **QUAL-02**: Todas as skills usam `allowed-tools: Bash(curl *)` em vez de `Bash(*)`
 - [ ] **QUAL-03**: Scripts curl usam flag `-f` e checam HTTP status code para erros claros
 - [ ] **QUAL-04**: Nenhuma API key hardcoded — todas vêm do `~/.claude/.env`
-- [ ] **QUAL-05**: Skills compatíveis com Claude Code >= 1.0.33
-- [ ] **QUAL-06**: Descrições de skills concisas (<100 chars) para não estourar budget de 16K chars
+- [x] **QUAL-05**: Skills compatíveis com Claude Code >= 1.0.33
+- [x] **QUAL-06**: Descrições de skills concisas (<100 chars) para não estourar budget de 16K chars
 
 ### Distribution
 
@@ -137,14 +137,14 @@
 | FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 1 | Complete |
 | FOUND-06 | Phase 1 | Complete |
-| SETUP-02 | Phase 1 | Pending |
-| SETUP-03 | Phase 1 | Pending |
-| QUAL-01 | Phase 1 | Pending |
-| QUAL-02 | Phase 1 | Pending |
+| SETUP-02 | Phase 1 | Complete |
+| SETUP-03 | Phase 1 | Complete |
+| QUAL-01 | Phase 1 | Complete |
+| QUAL-02 | Phase 1 | Complete |
 | QUAL-03 | Phase 2 | Pending |
 | QUAL-04 | Phase 1 | Pending |
-| QUAL-05 | Phase 1 | Pending |
-| QUAL-06 | Phase 1 | Pending |
+| QUAL-05 | Phase 1 | Complete |
+| QUAL-06 | Phase 1 | Complete |
 | DIST-01 | Phase 1 | Complete |
 | DIST-02 | Phase 1 | Complete |
 | DIST-03 | Phase 1 | Complete |
