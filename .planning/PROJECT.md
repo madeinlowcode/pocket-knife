@@ -15,20 +15,20 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 - [x] Script loader centralizado que lê `~/.claude/.env` uma vez e disponibiliza as variáveis de ambiente para as skills
 - [x] Skills de áudio ElevenLabs: elevenlabs-tts, elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects, elevenlabs-voice-cloner, elevenlabs-voice-changer, elevenlabs-music, elevenlabs-dubbing, elevenlabs-voice-isolator (9 skills, AUD-02 a AUD-10)
 - [x] Skills de vídeo fal.ai: ai-video-generation (Kling 1.6), image-to-video (Wan 2.2 5B), p-video (Seedance 1.0 Lite) + google-veo existente (VID-01, VID-03, VID-04)
+- [x] Skills de social: twitter-automation (OAuth 1.0a + Node.js helper)
+- [x] Skills de SDK: javascript-sdk e python-sdk (guias puros, allowed-tools: [])
+- [x] Skills de UI: agent-ui, chat-ui, tools-ui, widgets-ui (guias puros, allowed-tools: [])
+- [x] CLI de instalação (`npx pocket-knife init`) — cli/package.json, bin/init.js, lib/prompts.js, lib/validate.js, lib/env-writer.js, lib/categories.json
+- [x] Skill de setup (`/pocket-knife:setup`) — commands/setup.md com disable-model-invocation: true
+- [x] Plugin do Claude Code — .claude-plugin/plugin.json com marketplace.json
+- [x] Skills de imagem: ai-image-generation, background-removal, flux-image, image-upscaling, nano-banana, nano-banana-2, p-image, qwen-image-2, qwen-image-2-pro
+- [x] Skills de LLM: llm-models (Claude, Gemini, Kimi, GLM)
+- [x] Skills de web search: web-search (Tavily, Exa)
+- [x] Skills de guias: prompting-guide, design-guide, video-guide, writing-guide, social-guide, product-guide, content-guide
 
 ### Active
 
-- [ ] 85+ skills portadas do inference.sh, substituindo chamadas `infsh app run` por chamadas diretas às APIs dos provedores
-- [ ] Skills de imagem: ai-image-generation, background-removal, flux-image, image-upscaling, nano-banana, nano-banana-2, p-image, qwen-image-2, qwen-image-2-pro
-- [ ] Skills de LLM: llm-models (Claude, Gemini, Kimi, GLM)
-- [ ] Skills de web search: web-search (Tavily, Exa)
-- [ ] Skills de social: twitter-automation
-- [ ] Skills de SDK: javascript-sdk, python-sdk
-- [ ] Skills de UI: agent-ui, chat-ui, tools-ui, widgets-ui
-- [ ] Skills de guias: todos os guides (prompting, design, video, writing, social, product)
-- [ ] CLI de instalação (`npx pocket-knife init`) que cria `~/.claude/.env` interativamente, perguntando chaves conforme as skills que o usuário quer usar
-- [ ] Skill de setup (`/pocket-knife:setup`) como alternativa conversacional dentro do Claude Code para configurar o `.env`
-- [ ] Configuração como plugin do Claude Code (`.claude-plugin/plugin.json`)
+- [ ] Todas as 85+ skills validadas e testadas com API keys reais (validação manual via smoke tests)
 - [ ] Hospedagem no GitHub com distribuição via marketplace de skills (Vercel/skills.sh)
 
 ### Out of Scope
