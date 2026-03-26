@@ -61,11 +61,13 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Usar `~/.claude/.env` para chaves | Centralizado, fora de repos, não conflita com `.env` de projetos | — Pending |
-| Script loader executado uma vez | Evita leitura repetida do `.env` em cada skill | — Pending |
-| Chamadas diretas às APIs (sem proxy) | Elimina intermediário, custo direto ao provedor, sem vendor lock-in | — Pending |
-| CLI + Skill de setup (duas abordagens) | CLI para devs técnicos, skill para leigos — momentos diferentes de uso | — Pending |
-| Manter estrutura de diretórios do Inference | Facilita portabilidade e comparação com o original | — Pending |
+| Usar `~/.claude/.env` para chaves | Centralizado, fora de repos, não conflita com `.env` de projetos | ✓ Validated in Phase 1 — hooks/hooks.json + scripts/load-env.sh implementam |
+| Script loader executado uma vez via SessionStart | Evita leitura repetida do `.env` em cada skill | ✓ Validated in Phase 1 — SessionStart hook executa load-env.sh uma vez por sessão |
+| Chamadas diretas às APIs (sem proxy) | Elimina intermediário, custo direto ao provedor, sem vendor lock-in | Pending — Phase 2+ |
+| CLI + Skill de setup (duas abordagens) | CLI para devs técnicos, skill para leigos — momentos diferentes de uso | ✓ Validated in Phase 1 — commands/setup.md implementa skill conversacional |
+| Manter estrutura de diretórios do Inference | Facilita portabilidade e comparação com o original | ✓ Validated in Phase 1 — skills/{image,audio,video,llm,search,social,sdk,ui,guides}/ |
+| Security contract: sem set -x, sem echo de valores | Previne vazamento de API keys em logs/stderr | ✓ Validated in Phase 1 — SECURITY CONTRACT em load-env.sh |
+| disable-model-invocation para skills com side-effects | QUAL-01: evita invocação automática de skills que modificam estado | ✓ Validated in Phase 1 — setup.md usa disable-model-invocation |
 
 ## Evolution
 
@@ -85,4 +87,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-25 after initialization*
+*Last updated: 2026-03-26 after Phase 1 completion*
