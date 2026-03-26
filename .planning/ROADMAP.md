@@ -96,13 +96,12 @@ Plans:
   3. `/pocket-knife:agent-ui`, `/pocket-knife:chat-ui`, `/pocket-knife:tools-ui` e `/pocket-knife:widgets-ui` são invocáveis e entregam seus templates/interfaces
   4. `/pocket-knife:javascript-sdk` e `/pocket-knife:python-sdk` são invocáveis e entregam guias/templates de SDK
   5. Validação de chaves durante setup confirma conectividade com cada provedor configurado
-**UI hint**: yes
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: Social e SDK skills — `twitter-automation` (OAuth Bearer), `javascript-sdk`, `python-sdk`
-- [ ] 05-02: UI skills — `agent-ui`, `chat-ui`, `tools-ui`, `widgets-ui`
-- [ ] 05-03: CLI `npx pocket-knife init` — `package.json`, `bin/pocket-knife.js`, validação de chaves (SETUP-01, SETUP-04)
+- [ ] 05-01-PLAN.md — Social + SDK skills: `twitter-automation` (OAuth 1.0a HMAC-SHA1 via Node.js helper), `javascript-sdk` (guide), `python-sdk` (guide)
+- [ ] 05-02-PLAN.md — UI skills: `agent-ui`, `chat-ui`, `tools-ui`, `widgets-ui` (todos guides, allowed-tools: [])
+- [ ] 05-03-PLAN.md — CLI `npx pocket-knife init`: `cli/package.json` (ESM), `cli/bin/init.js`, validacao de chaves (SETUP-01, SETUP-04)
 
 ## Progress
 
