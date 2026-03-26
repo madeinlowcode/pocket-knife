@@ -129,16 +129,72 @@
 
 ## Traceability
 
-(Populated during roadmap creation)
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| FOUND-06 | Phase 1 | Pending |
+| SETUP-02 | Phase 1 | Pending |
+| SETUP-03 | Phase 1 | Pending |
+| QUAL-01 | Phase 1 | Pending |
+| QUAL-02 | Phase 1 | Pending |
+| QUAL-03 | Phase 1 | Pending |
+| QUAL-04 | Phase 1 | Pending |
+| QUAL-05 | Phase 1 | Pending |
+| QUAL-06 | Phase 1 | Pending |
+| DIST-01 | Phase 1 | Pending |
+| DIST-02 | Phase 1 | Pending |
+| DIST-03 | Phase 1 | Pending |
+| IMG-01 | Phase 2 | Pending |
+| AUD-01 | Phase 2 | Pending |
+| LLM-01 | Phase 2 | Pending |
+| SRCH-01 | Phase 2 | Pending |
+| VID-02 | Phase 2 | Pending |
+| IMG-02 | Phase 3 | Pending |
+| IMG-03 | Phase 3 | Pending |
+| IMG-04 | Phase 3 | Pending |
+| IMG-05 | Phase 3 | Pending |
+| IMG-06 | Phase 3 | Pending |
+| IMG-07 | Phase 3 | Pending |
+| IMG-08 | Phase 3 | Pending |
+| IMG-09 | Phase 3 | Pending |
+| GUIDE-01 | Phase 3 | Pending |
+| GUIDE-02 | Phase 3 | Pending |
+| GUIDE-03 | Phase 3 | Pending |
+| GUIDE-04 | Phase 3 | Pending |
+| GUIDE-05 | Phase 3 | Pending |
+| GUIDE-06 | Phase 3 | Pending |
+| GUIDE-07 | Phase 3 | Pending |
+| AUD-02 | Phase 4 | Pending |
+| AUD-03 | Phase 4 | Pending |
+| AUD-04 | Phase 4 | Pending |
+| AUD-05 | Phase 4 | Pending |
+| AUD-06 | Phase 4 | Pending |
+| AUD-07 | Phase 4 | Pending |
+| AUD-08 | Phase 4 | Pending |
+| AUD-09 | Phase 4 | Pending |
+| AUD-10 | Phase 4 | Pending |
+| VID-01 | Phase 4 | Pending |
+| VID-03 | Phase 4 | Pending |
+| VID-04 | Phase 4 | Pending |
+| SOC-01 | Phase 5 | Pending |
+| SDK-01 | Phase 5 | Pending |
+| SDK-02 | Phase 5 | Pending |
+| UI-01 | Phase 5 | Pending |
+| UI-02 | Phase 5 | Pending |
+| UI-03 | Phase 5 | Pending |
+| UI-04 | Phase 5 | Pending |
+| SETUP-01 | Phase 5 | Pending |
+| SETUP-04 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 53 total
-- Mapped to phases: 0
-- Unmapped: 53 (pending roadmap)
+- v1 requirements: 58 total (todos os IDs explícitos mapeados)
+- Mapped to phases: 58
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-25*
-*Last updated: 2026-03-25 after initial definition*
+*Last updated: 2026-03-25 after roadmap creation — traceability populated*
