@@ -36,13 +36,13 @@
 ### Skills — Vídeo (5+ skills)
 
 - [ ] **VID-01**: Skill `ai-video-generation` — geração de vídeo genérica
-- [ ] **VID-02**: Skill `google-veo` — geração de vídeo via Google Veo (chave: `GOOGLE_API_KEY`)
+- [x] **VID-02**: Skill `google-veo` — geração de vídeo via Google Veo (chave: `GOOGLE_API_KEY`)
 - [ ] **VID-03**: Skill `image-to-video` — conversão de imagem para vídeo
 - [ ] **VID-04**: Skills de vídeo adicionais conforme disponíveis no Inference (Kling, Seedream, etc.)
 
 ### Skills — Áudio (10 skills)
 
-- [ ] **AUD-01**: Skill `elevenlabs-tts` — text-to-speech (chave: `ELEVENLABS_API_KEY`)
+- [x] **AUD-01**: Skill `elevenlabs-tts` — text-to-speech (chave: `ELEVENLABS_API_KEY`)
 - [ ] **AUD-02**: Skill `elevenlabs-stt` — speech-to-text (chave: `ELEVENLABS_API_KEY`)
 - [ ] **AUD-03**: Skill `elevenlabs-dialogue` — geração de diálogos (chave: `ELEVENLABS_API_KEY`)
 - [ ] **AUD-04**: Skill `elevenlabs-sound-effects` — efeitos sonoros (chave: `ELEVENLABS_API_KEY`)
@@ -88,7 +88,7 @@
 
 - [x] **QUAL-01**: Todas as skills com side effects usam `disable-model-invocation: true`
 - [x] **QUAL-02**: Todas as skills usam `allowed-tools: Bash(curl *)` em vez de `Bash(*)`
-- [ ] **QUAL-03**: Scripts curl usam flag `-f` e checam HTTP status code para erros claros
+- [x] **QUAL-03**: Scripts curl usam flag `-f` e checam HTTP status code para erros claros
 - [x] **QUAL-04**: Nenhuma API key hardcoded — todas vêm do `~/.claude/.env`
 - [x] **QUAL-05**: Skills compatíveis com Claude Code >= 1.0.33
 - [x] **QUAL-06**: Descrições de skills concisas (<100 chars) para não estourar budget de 16K chars
@@ -141,7 +141,7 @@
 | SETUP-03 | Phase 1 | Complete |
 | QUAL-01 | Phase 1 | Complete |
 | QUAL-02 | Phase 1 | Complete |
-| QUAL-03 | Phase 2 | Pending |
+| QUAL-03 | Phase 2 | Complete |
 | QUAL-04 | Phase 1 | Complete |
 | QUAL-05 | Phase 1 | Complete |
 | QUAL-06 | Phase 1 | Complete |
@@ -149,10 +149,10 @@
 | DIST-02 | Phase 1 | Complete |
 | DIST-03 | Phase 1 | Complete |
 | IMG-01 | Phase 2 | Pending |
-| AUD-01 | Phase 2 | Pending |
+| AUD-01 | Phase 2 | Complete |
 | LLM-01 | Phase 2 | Pending |
 | SRCH-01 | Phase 2 | Pending |
-| VID-02 | Phase 2 | Pending |
+| VID-02 | Phase 2 | Complete |
 | IMG-02 | Phase 3 | Pending |
 | IMG-03 | Phase 3 | Pending |
 | IMG-04 | Phase 3 | Pending |

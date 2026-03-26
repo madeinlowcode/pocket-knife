@@ -40,18 +40,18 @@ Plans:
 ### Phase 2: Validation Batch
 **Goal**: Um skill funcional por provedor principal valida o round-trip env loader → curl → API e estabelece templates reutilizáveis para os 80+ skills restantes
 **Depends on**: Phase 1
-**Requirements**: IMG-01, AUD-01, LLM-01, SRCH-01, VID-02
+**Requirements**: IMG-01, AUD-01, LLM-01, SRCH-01, VID-02, QUAL-03
 **Success Criteria** (what must be TRUE):
-  1. `/pocket-knife:ai-image-generation` gera uma imagem via Google Gemini com `GOOGLE_API_KEY` válida
+  1. `/pocket-knife:ai-image-generation` gera uma imagem via Google Imagen 4 com `GOOGLE_API_KEY` válida
   2. `/pocket-knife:elevenlabs-tts` gera um arquivo de áudio via ElevenLabs com `ELEVENLABS_API_KEY` válida
   3. `/pocket-knife:llm-models` responde via pelo menos um LLM configurado (Claude, Gemini, Kimi ou GLM)
   4. `/pocket-knife:web-search` retorna resultados via Tavily ou Exa com chave válida
   5. Skill com chave ausente exibe mensagem human-readable orientando para `/pocket-knife:setup` — sem JSON dump
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Skills de validação — `ai-image-generation` (Google), `llm-models` (multi-provider), `web-search` (Tavily+Exa)
-- [ ] 02-02: Skills de validação — `elevenlabs-tts` (ElevenLabs), `google-veo` (Veo async), VERSIONS.md pattern estabelecido
+- [x] 02-01-PLAN.md — Skills de validação (wave 1): `ai-image-generation` (Imagen 4 via x-goog-api-key), `llm-models` (multi-provider routing), `web-search` (Tavily+Exa dual-provider)
+- [x] 02-02-PLAN.md — Skills de validação (wave 1): `elevenlabs-tts` (binário MP3 via -f), `google-veo` (Vertex AI async polling com gcloud)
 
 ### Phase 3: Image, LLM, Search e Guides
 **Goal**: Todas as skills de imagem, LLM, busca web e guides estão funcionando — o plugin é imediatamente útil mesmo sem chaves de áudio/vídeo
@@ -112,7 +112,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/3 | In Progress|  |
-| 2. Validation Batch | 0/2 | Not started | - |
+| 2. Validation Batch | 0/2 | Planned | - |
 | 3. Image, LLM, Search e Guides | 0/3 | Not started | - |
 | 4. Audio e Video | 0/3 | Not started | - |
 | 5. Social, UI, SDK e CLI | 0/3 | Not started | - |
