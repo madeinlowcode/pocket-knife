@@ -13,7 +13,7 @@ Pocket-Knife entrega 85+ skills de IA com chamadas diretas às APIs dos provedor
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation** - Scaffold do plugin, env loader, contratos de segurança e estrutura de distribuição
-- [ ] **Phase 2: Validation Batch** - Um skill por provedor para validar auth, curl templates e política de invocação
+- [x] **Phase 2: Validation Batch** - Um skill por provedor para validar auth, curl templates e política de invocação (completed 2026-03-26)
 - [ ] **Phase 3: Image, LLM, Search e Guides** - Skills de alta demanda e guides sem API key
 - [ ] **Phase 4: Audio e Video** - Skills ElevenLabs (async audio) e vídeo (async polling, binary output)
 - [ ] **Phase 5: Social, UI, SDK e CLI** - Skills restantes e CLI de onboarding npx
@@ -112,7 +112,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/3 | In Progress|  |
-| 2. Validation Batch | 0/2 | Planned | - |
+| 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
 | 3. Image, LLM, Search e Guides | 0/3 | Not started | - |
 | 4. Audio e Video | 0/3 | Not started | - |
 | 5. Social, UI, SDK e CLI | 0/3 | Not started | - |
