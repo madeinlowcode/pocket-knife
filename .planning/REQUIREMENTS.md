@@ -8,7 +8,7 @@
 ### Foundation
 
 - [x] **FOUND-01**: Plugin registrado como plugin Claude Code válido via `.claude-plugin/plugin.json` com namespace `pocket-knife`
-- [ ] **FOUND-02**: Script `load-env.sh` carrega `~/.claude/.env` uma vez via SessionStart hook e disponibiliza variáveis de ambiente
+- [x] **FOUND-02**: Script `load-env.sh` carrega `~/.claude/.env` uma vez via SessionStart hook e disponibiliza variáveis de ambiente
 - [x] **FOUND-03**: `.gitattributes` configurado com `eol=lf` para prevenir CRLF em scripts bash no Windows
 - [x] **FOUND-04**: README.md com instruções de instalação (`/plugin install` e `/plugin marketplace add`)
 - [x] **FOUND-05**: Licença MIT no repositório
@@ -89,7 +89,7 @@
 - [x] **QUAL-01**: Todas as skills com side effects usam `disable-model-invocation: true`
 - [x] **QUAL-02**: Todas as skills usam `allowed-tools: Bash(curl *)` em vez de `Bash(*)`
 - [ ] **QUAL-03**: Scripts curl usam flag `-f` e checam HTTP status code para erros claros
-- [ ] **QUAL-04**: Nenhuma API key hardcoded — todas vêm do `~/.claude/.env`
+- [x] **QUAL-04**: Nenhuma API key hardcoded — todas vêm do `~/.claude/.env`
 - [x] **QUAL-05**: Skills compatíveis com Claude Code >= 1.0.33
 - [x] **QUAL-06**: Descrições de skills concisas (<100 chars) para não estourar budget de 16K chars
 
@@ -132,7 +132,7 @@
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Complete |
-| FOUND-02 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 1 | Complete |
@@ -142,7 +142,7 @@
 | QUAL-01 | Phase 1 | Complete |
 | QUAL-02 | Phase 1 | Complete |
 | QUAL-03 | Phase 2 | Pending |
-| QUAL-04 | Phase 1 | Pending |
+| QUAL-04 | Phase 1 | Complete |
 | QUAL-05 | Phase 1 | Complete |
 | QUAL-06 | Phase 1 | Complete |
 | DIST-01 | Phase 1 | Complete |

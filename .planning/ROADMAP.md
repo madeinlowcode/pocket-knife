@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Plugin scaffold: `.claude-plugin/plugin.json`, `marketplace.json`, estrutura `skills/` (9 categorias), `.gitattributes`, `README.md`, `LICENSE`, `scripts/validate-plugin.sh`
-- [ ] 01-02-PLAN.md — Env loader: `hooks/hooks.json` (SessionStart) + `scripts/load-env.sh` com contrato de segurança QUAL-04 (sem `set -x`, sem echo de valores)
+- [x] 01-02-PLAN.md — Env loader: `hooks/hooks.json` (SessionStart) + `scripts/load-env.sh` com contrato de segurança QUAL-04 (sem `set -x`, sem echo de valores)
 - [x] 01-03-PLAN.md — Setup command e qualidade: `commands/setup.md` com `disable-model-invocation: true`, resolução híbrida de chaves (SETUP-03), checkpoint de verificação humana
 
 ### Phase 2: Validation Batch
