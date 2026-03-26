@@ -46,11 +46,11 @@
 - [x] **AUD-02**: Skill `elevenlabs-stt` — speech-to-text (chave: `ELEVENLABS_API_KEY`)
 - [x] **AUD-03**: Skill `elevenlabs-dialogue` — geração de diálogos (chave: `ELEVENLABS_API_KEY`)
 - [x] **AUD-04**: Skill `elevenlabs-sound-effects` — efeitos sonoros (chave: `ELEVENLABS_API_KEY`)
-- [ ] **AUD-05**: Skill `elevenlabs-voice-cloner` — clonagem de voz (chave: `ELEVENLABS_API_KEY`)
-- [ ] **AUD-06**: Skill `elevenlabs-voice-changer` — alteração de voz (chave: `ELEVENLABS_API_KEY`)
-- [ ] **AUD-07**: Skill `elevenlabs-music` — geração de música (chave: `ELEVENLABS_API_KEY`)
-- [ ] **AUD-08**: Skill `elevenlabs-dubbing` — dublagem automática (chave: `ELEVENLABS_API_KEY`)
-- [ ] **AUD-09**: Skills de áudio adicionais conforme disponíveis no Inference
+- [x] **AUD-05**: Skill `elevenlabs-voice-cloner` — clonagem de voz (chave: `ELEVENLABS_API_KEY`)
+- [x] **AUD-06**: Skill `elevenlabs-voice-changer` — alteração de voz (chave: `ELEVENLABS_API_KEY`)
+- [x] **AUD-07**: Skill `elevenlabs-music` — geração de música (chave: `ELEVENLABS_API_KEY`)
+- [x] **AUD-08**: Skill `elevenlabs-dubbing` — dublagem automática (chave: `ELEVENLABS_API_KEY`)
+- [x] **AUD-09**: Skills de áudio adicionais conforme disponíveis no Inference
 - [x] **AUD-10**: Todas as skills ElevenLabs usam `disable-model-invocation: true`
 
 ### Skills — LLM & Search
@@ -171,11 +171,11 @@
 | AUD-02 | Phase 4 | Complete |
 | AUD-03 | Phase 4 | Complete |
 | AUD-04 | Phase 4 | Complete |
-| AUD-05 | Phase 4 | Pending |
-| AUD-06 | Phase 4 | Pending |
-| AUD-07 | Phase 4 | Pending |
-| AUD-08 | Phase 4 | Pending |
-| AUD-09 | Phase 4 | Pending |
+| AUD-05 | Phase 4 | Complete |
+| AUD-06 | Phase 4 | Complete |
+| AUD-07 | Phase 4 | Complete |
+| AUD-08 | Phase 4 | Complete |
+| AUD-09 | Phase 4 | Complete |
 | AUD-10 | Phase 4 | Complete |
 | VID-01 | Phase 4 | Complete |
 | VID-03 | Phase 4 | Complete |

@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 1: Foundation** - Scaffold do plugin, env loader, contratos de segurança e estrutura de distribuição
 - [x] **Phase 2: Validation Batch** - Um skill por provedor para validar auth, curl templates e política de invocação (completed 2026-03-26)
 - [x] **Phase 3: Image, LLM, Search e Guides** - Skills de alta demanda e guides sem API key (completed 2026-03-26)
-- [ ] **Phase 4: Audio e Video** - Skills ElevenLabs (async audio) e vídeo (async polling, binary output)
+- [x] **Phase 4: Audio e Video** - Skills ElevenLabs (async audio) e vídeo (async polling, binary output) (completed 2026-03-26)
 - [ ] **Phase 5: Social, UI, SDK e CLI** - Skills restantes e CLI de onboarding npx
 
 ## Phase Details
@@ -83,7 +83,7 @@ Plans:
 
 Plans:
 - [x] 04-01-PLAN.md — ElevenLabs audio (wave 1): `elevenlabs-stt` (multipart->JSON, scribe_v2), `elevenlabs-dialogue` (JSON->binário, eleven_v3), `elevenlabs-sound-effects` (JSON->binário)
-- [ ] 04-02-PLAN.md — ElevenLabs audio (wave 1): `elevenlabs-voice-cloner` (multipart->JSON), `elevenlabs-voice-changer` (multipart->binário), `elevenlabs-music` (JSON->binário), `elevenlabs-dubbing` (async 3-step), `elevenlabs-voice-isolator` (AUD-09)
+- [x] 04-02-PLAN.md — ElevenLabs audio (wave 1): `elevenlabs-voice-cloner` (multipart->JSON), `elevenlabs-voice-changer` (multipart->binário), `elevenlabs-music` (JSON->binário), `elevenlabs-dubbing` (async 3-step), `elevenlabs-voice-isolator` (AUD-09)
 - [x] 04-03-PLAN.md — Video skills (wave 1): `ai-video-generation` (Kling 1.6, t2v), `image-to-video` (Wan 2.2 5B, i2v), `p-video` (Seedance 1.0 Lite, VID-04) — todos fal.ai async queue
 
 ### Phase 5: Social, UI, SDK e CLI
@@ -114,5 +114,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation | 1/3 | In Progress|  |
 | 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
 | 3. Image, LLM, Search e Guides | 3/3 | Complete   | 2026-03-26 |
-| 4. Audio e Video | 2/3 | In Progress|  |
+| 4. Audio e Video | 3/3 | Complete   | 2026-03-26 |
 | 5. Social, UI, SDK e CLI | 0/3 | Not started | - |

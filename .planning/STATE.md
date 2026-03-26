@@ -2,12 +2,12 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Executing Phase 04
-stopped_at: "Completed 04-01 plan (3 ElevenLabs audio skills: elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects)"
-last_updated: "2026-03-26T15:40:00.000Z"
+status: Ready to execute
+stopped_at: "Completed 04-02 plan (5 ElevenLabs audio skills: voice-cloner, voice-changer, music, dubbing, voice-isolator)"
+last_updated: "2026-03-26T15:41:10.759Z"
 progress:
   total_phases: 5
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 11
   completed_plans: 11
 ---
@@ -24,7 +24,7 @@ See: .planning/PROJECT.md (updated 2026-03-25)
 ## Current Position
 
 Phase: 04 (audio-video) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 
 ## Performance Metrics
 
@@ -55,6 +55,7 @@ Plan: 2 of 3
 | Phase 03-image-llm-search-guides P03 | 257 | 2 tasks | 7 files |
 | Phase 03 P01 | 1774536097 | 2 tasks | 5 files |
 | Phase 03 P01 | 300 | 2 tasks | 5 files |
+| Phase 04 P04-02 | 15 | 3 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,9 @@ Recent decisions affecting current work:
 - [Phase 04-01]: elevenlabs-stt uses --fail-with-body (not -f) for JSON response; sends file OR source_url (not both)
 - [Phase 04-01]: elevenlabs-dialogue/sound-effects use -f (not --fail-with-body) for binary MP3 output
 - [Phase 04-01]: elevenlabs-dialogue uses model eleven_v3 (NOT deprecated eleven_monolingual_v1)
+- [Phase 04]: Binary output always uses curl -f (NOT --fail-with-body) to avoid error body corrupting binary files
+- [Phase 04]: Multipart JSON objects (voice_settings) serialized as string in -F flag
+- [Phase 04]: Dubbing status check uses exactly = 'dubbed' (not negation of 'dubbing')
 
 ### Pending Todos
 
@@ -96,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-26T15:40:00.000Z
-Stopped at: Completed 04-01 plan (3 ElevenLabs audio skills: elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects)
+Last session: 2026-03-26T15:41:10.755Z
+Stopped at: Completed 04-02 plan (5 ElevenLabs audio skills: voice-cloner, voice-changer, music, dubbing, voice-isolator)
 Resume file: None
