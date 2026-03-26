@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Ready to execute
-stopped_at: "Completed 04-03 plan (3 video skills: ai-video-generation, image-to-video, p-video)"
-last_updated: "2026-03-26T15:39:11.335Z"
+status: Executing Phase 04
+stopped_at: "Completed 04-01 plan (3 ElevenLabs audio skills: elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects)"
+last_updated: "2026-03-26T15:40:00.000Z"
 progress:
   total_phases: 5
   completed_phases: 3
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
 ---
 
 # Project State
@@ -79,6 +79,9 @@ Recent decisions affecting current work:
 - [Phase 03]: fal.ai queue uses Authorization: Key $FAL_KEY header, NOT Bearer token
 - [Phase 04]: fal.ai video queue: Authorization Key (not Bearer), MAX_WAIT=300, POLL_INTERVAL=10
 - [Phase 04]: image-to-video: image_url field in submit body (public HTTPS required)
+- [Phase 04-01]: elevenlabs-stt uses --fail-with-body (not -f) for JSON response; sends file OR source_url (not both)
+- [Phase 04-01]: elevenlabs-dialogue/sound-effects use -f (not --fail-with-body) for binary MP3 output
+- [Phase 04-01]: elevenlabs-dialogue uses model eleven_v3 (NOT deprecated eleven_monolingual_v1)
 
 ### Pending Todos
 
@@ -93,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-26T15:38:47.667Z
-Stopped at: Completed 04-03 plan (3 video skills: ai-video-generation, image-to-video, p-video)
+Last session: 2026-03-26T15:40:00.000Z
+Stopped at: Completed 04-01 plan (3 ElevenLabs audio skills: elevenlabs-stt, elevenlabs-dialogue, elevenlabs-sound-effects)
 Resume file: None
