@@ -23,15 +23,15 @@
 
 ### Skills — Imagem (9 skills)
 
-- [ ] **IMG-01**: Skill `ai-image-generation` — geração de imagem via Google Gemini (chave: `GOOGLE_API_KEY`)
+- [x] **IMG-01**: Skill `ai-image-generation` — geração de imagem via Google Gemini (chave: `GOOGLE_API_KEY`)
 - [ ] **IMG-02**: Skill `nano-banana` — geração via Gemini Flash (chave: `GOOGLE_API_KEY`)
 - [ ] **IMG-03**: Skill `nano-banana-2` — geração via Gemini 3.1 Flash (chave: `GOOGLE_API_KEY`)
 - [ ] **IMG-04**: Skill `flux-image` — geração via fal.ai FLUX (chave: `FAL_KEY`)
 - [ ] **IMG-05**: Skill `image-upscaling` — upscaling de imagem (chave: `FAL_KEY`)
 - [ ] **IMG-06**: Skill `background-removal` — remoção de fundo (chave: `FAL_KEY`)
-- [ ] **IMG-07**: Skill `p-image` — geração via ImagineArt/Prodia (chave: provedor específico)
-- [ ] **IMG-08**: Skill `qwen-image-2` — geração via Qwen (chave: provedor específico)
-- [ ] **IMG-09**: Skill `qwen-image-2-pro` — geração via Qwen Pro (chave: provedor específico)
+- [x] **IMG-07**: Skill `p-image` — geração via ImagineArt/Prodia (chave: provedor específico)
+- [x] **IMG-08**: Skill `qwen-image-2` — geração via Qwen (chave: provedor específico)
+- [x] **IMG-09**: Skill `qwen-image-2-pro` — geração via Qwen Pro (chave: provedor específico)
 
 ### Skills — Vídeo (5+ skills)
 
@@ -55,8 +55,8 @@
 
 ### Skills — LLM & Search
 
-- [ ] **LLM-01**: Skill `llm-models` — acesso a modelos LLM (Claude, Gemini, Kimi, GLM) com chaves respectivas
-- [ ] **SRCH-01**: Skill `web-search` — busca web via Tavily (chave: `TAVILY_API_KEY`) e/ou Exa (chave: `EXA_API_KEY`)
+- [x] **LLM-01**: Skill `llm-models` — acesso a modelos LLM (Claude, Gemini, Kimi, GLM) com chaves respectivas
+- [x] **SRCH-01**: Skill `web-search` — busca web via Tavily (chave: `TAVILY_API_KEY`) e/ou Exa (chave: `EXA_API_KEY`)
 
 ### Skills — Social
 
@@ -76,13 +76,13 @@
 
 ### Skills — Guides (20+ skills)
 
-- [ ] **GUIDE-01**: Skill `prompting-guide` — guia de prompting
-- [ ] **GUIDE-02**: Skill `design-guide` — guia de design
-- [ ] **GUIDE-03**: Skill `video-guide` — guia de vídeo
-- [ ] **GUIDE-04**: Skill `writing-guide` — guia de escrita
-- [ ] **GUIDE-05**: Skill `social-guide` — guia de mídias sociais
-- [ ] **GUIDE-06**: Skill `product-guide` — guia de produto
-- [ ] **GUIDE-07**: Demais guides conforme disponíveis no Inference
+- [x] **GUIDE-01**: Skill `prompting-guide` — guia de prompting
+- [x] **GUIDE-02**: Skill `design-guide` — guia de design
+- [x] **GUIDE-03**: Skill `video-guide` — guia de vídeo
+- [x] **GUIDE-04**: Skill `writing-guide` — guia de escrita
+- [x] **GUIDE-05**: Skill `social-guide` — guia de mídias sociais
+- [x] **GUIDE-06**: Skill `product-guide` — guia de produto
+- [x] **GUIDE-07**: Demais guides conforme disponíveis no Inference
 
 ### Quality & Safety
 
@@ -148,26 +148,26 @@
 | DIST-01 | Phase 1 | Complete |
 | DIST-02 | Phase 1 | Complete |
 | DIST-03 | Phase 1 | Complete |
-| IMG-01 | Phase 2 | Pending |
+| IMG-01 | Phase 2 | Complete |
 | AUD-01 | Phase 2 | Complete |
-| LLM-01 | Phase 2 | Pending |
-| SRCH-01 | Phase 2 | Pending |
+| LLM-01 | Phase 2 | Complete |
+| SRCH-01 | Phase 2 | Complete |
 | VID-02 | Phase 2 | Complete |
 | IMG-02 | Phase 3 | Pending |
 | IMG-03 | Phase 3 | Pending |
 | IMG-04 | Phase 3 | Pending |
 | IMG-05 | Phase 3 | Pending |
 | IMG-06 | Phase 3 | Pending |
-| IMG-07 | Phase 3 | Pending |
-| IMG-08 | Phase 3 | Pending |
-| IMG-09 | Phase 3 | Pending |
-| GUIDE-01 | Phase 3 | Pending |
-| GUIDE-02 | Phase 3 | Pending |
-| GUIDE-03 | Phase 3 | Pending |
-| GUIDE-04 | Phase 3 | Pending |
-| GUIDE-05 | Phase 3 | Pending |
-| GUIDE-06 | Phase 3 | Pending |
-| GUIDE-07 | Phase 3 | Pending |
+| IMG-07 | Phase 3 | Complete |
+| IMG-08 | Phase 3 | Complete |
+| IMG-09 | Phase 3 | Complete |
+| GUIDE-01 | Phase 3 | Complete |
+| GUIDE-02 | Phase 3 | Complete |
+| GUIDE-03 | Phase 3 | Complete |
+| GUIDE-04 | Phase 3 | Complete |
+| GUIDE-05 | Phase 3 | Complete |
+| GUIDE-06 | Phase 3 | Complete |
+| GUIDE-07 | Phase 3 | Complete |
 | AUD-02 | Phase 4 | Pending |
 | AUD-03 | Phase 4 | Pending |
 | AUD-04 | Phase 4 | Pending |

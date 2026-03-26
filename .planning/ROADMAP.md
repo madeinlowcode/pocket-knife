@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation** - Scaffold do plugin, env loader, contratos de segurança e estrutura de distribuição
 - [x] **Phase 2: Validation Batch** - Um skill por provedor para validar auth, curl templates e política de invocação (completed 2026-03-26)
-- [ ] **Phase 3: Image, LLM, Search e Guides** - Skills de alta demanda e guides sem API key
+- [x] **Phase 3: Image, LLM, Search e Guides** - Skills de alta demanda e guides sem API key (completed 2026-03-26)
 - [ ] **Phase 4: Audio e Video** - Skills ElevenLabs (async audio) e vídeo (async polling, binary output)
 - [ ] **Phase 5: Social, UI, SDK e CLI** - Skills restantes e CLI de onboarding npx
 
@@ -62,12 +62,12 @@ Plans:
   2. Todos os 7+ guide skills (`prompting-guide`, `design-guide`, `video-guide`, `writing-guide`, `social-guide`, `product-guide` e demais) são invocáveis sem nenhuma API key configurada
   3. Após instalar todos os skills, `/` no Claude Code mostra todos os skills esperados sem truncamento (budget OK)
   4. Nenhum SKILL.md excede 300 linhas — conteúdo extenso está em `reference.md` ou `examples/`
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: Image skills restantes — `flux-image`, `nano-banana`, `nano-banana-2`, `background-removal`, `image-upscaling` (fal.ai + Google)
-- [ ] 03-02: Image skills restantes — `p-image`, `qwen-image-2`, `qwen-image-2-pro` (provedores específicos)
-- [ ] 03-03: Guide skills — todos os 7+ guides (prompting, design, video, writing, social, product e demais do Inference)
+- [x] 03-01-PLAN.md — Image skills (Google + fal.ai wave): `nano-banana` (gemini-3-pro-image-preview), `nano-banana-2` (gemini-3.1-flash-image-preview), `flux-image` (fal-ai/flux/schnell async), `image-upscaling` (fal-ai/topaz async), `background-removal` (fal-ai/birefnet async)
+- [x] 03-02-PLAN.md — Image skills (outros provedores): `p-image` (fal-ai/pruna/p-image async), `qwen-image-2` (DashScope qwen-image-2.0 síncrono), `qwen-image-2-pro` (DashScope qwen-image-2.0-pro síncrono)
+- [x] 03-03-PLAN.md — Guide skills (zero API key): `prompting-guide`, `design-guide`, `video-guide`, `writing-guide`, `social-guide`, `product-guide`, `content-guide`
 
 ### Phase 4: Audio e Video
 **Goal**: Todas as skills ElevenLabs de áudio e todas as skills de vídeo funcionam com tratamento correto de polling assíncrono e outputs binários
@@ -113,6 +113,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/3 | In Progress|  |
 | 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
-| 3. Image, LLM, Search e Guides | 0/3 | Not started | - |
+| 3. Image, LLM, Search e Guides | 3/3 | Complete   | 2026-03-26 |
 | 4. Audio e Video | 0/3 | Not started | - |
 | 5. Social, UI, SDK e CLI | 0/3 | Not started | - |

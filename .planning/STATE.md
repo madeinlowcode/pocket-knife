@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Ready to plan
-stopped_at: Completed 02-01 plan (validation batch wave 1)
-last_updated: "2026-03-26T14:17:59.073Z"
+status: Phase complete — ready for verification
+stopped_at: "Completed 03-01 plan (5 image skills: nano-banana, nano-banana-2, flux-image, image-upscaling, background-removal)"
+last_updated: "2026-03-26T14:42:13.966Z"
 progress:
   total_phases: 5
-  completed_phases: 2
-  total_plans: 5
-  completed_plans: 5
+  completed_phases: 3
+  total_plans: 8
+  completed_plans: 8
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-25)
 
 **Core value:** O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com suas próprias API keys, sem intermediário pago.
-**Current focus:** Phase 02 — validation-batch
+**Current focus:** Phase 03 — image-llm-search-guides
 
 ## Current Position
 
-Phase: 03
-Plan: Not started
+Phase: 03 (image-llm-search-guides) — EXECUTING
+Plan: 3 of 3
 
 ## Performance Metrics
 
@@ -51,6 +51,10 @@ Plan: Not started
 | Phase 01-foundation P02 | 1 | 2 tasks | 2 files |
 | Phase 02-validation-batch P02 | 2 | 2 tasks | 2 files |
 | Phase 02-validation-batch P01 | 4 | 3 tasks | 3 files |
+| Phase 03 P02 | 5 | 2 tasks | 3 files |
+| Phase 03-image-llm-search-guides P03 | 257 | 2 tasks | 7 files |
+| Phase 03 P01 | 1774536097 | 2 tasks | 5 files |
+| Phase 03 P01 | 300 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -67,6 +71,12 @@ Recent decisions affecting current work:
 - [Phase 01]: marketplace.json uses GitHub source type for /plugin marketplace add support
 - [Phase 01]: disable-model-invocation: true on setup.md to prevent auto-invocation
 - [Phase 02-validation-batch]: Pattern: Image API skill with curl + python3 base64 temp file (avoids line-length issues)
+- [Phase 03]: fal.ai uses Authorization: Key (not Bearer) - distinct from other providers
+- [Phase 03]: DASHSCOPE_API_KEY introduced as new env var in Phase 3
+- [Phase 03]: Guide skills use allowed-tools: [] (no curl, no Bash) - pure reference content
+- [Phase 03]: Consolidated 30+ inference.sh sub-guides into 7 comprehensive guide skills
+- [Phase 03]: Gemini native image uses inline_data extractor (candidates[].content.parts[].inline_data.data), NOT bytesBase64Encoded
+- [Phase 03]: fal.ai queue uses Authorization: Key $FAL_KEY header, NOT Bearer token
 
 ### Pending Todos
 
@@ -81,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-26T14:14:47.507Z
-Stopped at: Completed 02-01 plan (validation batch wave 1)
+Last session: 2026-03-26T14:42:13.962Z
+Stopped at: Completed 03-01 plan (5 image skills: nano-banana, nano-banana-2, flux-image, image-upscaling, background-removal)
 Resume file: None
