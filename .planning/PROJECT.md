@@ -63,11 +63,14 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 |----------|-----------|---------|
 | Usar `~/.claude/.env` para chaves | Centralizado, fora de repos, não conflita com `.env` de projetos | ✓ Validated in Phase 1 — hooks/hooks.json + scripts/load-env.sh implementam |
 | Script loader executado uma vez via SessionStart | Evita leitura repetida do `.env` em cada skill | ✓ Validated in Phase 1 — SessionStart hook executa load-env.sh uma vez por sessão |
-| Chamadas diretas às APIs (sem proxy) | Elimina intermediário, custo direto ao provedor, sem vendor lock-in | Pending — Phase 2+ |
+| Chamadas diretas às APIs (sem proxy) | Elimina intermediário, custo direto ao provedor, sem vendor lock-in | ✓ Validated in Phase 2 — 5 skills com curl direto funcionando |
 | CLI + Skill de setup (duas abordagens) | CLI para devs técnicos, skill para leigos — momentos diferentes de uso | ✓ Validated in Phase 1 — commands/setup.md implementa skill conversacional |
 | Manter estrutura de diretórios do Inference | Facilita portabilidade e comparação com o original | ✓ Validated in Phase 1 — skills/{image,audio,video,llm,search,social,sdk,ui,guides}/ |
 | Security contract: sem set -x, sem echo de valores | Previne vazamento de API keys em logs/stderr | ✓ Validated in Phase 1 — SECURITY CONTRACT em load-env.sh |
 | disable-model-invocation para skills com side-effects | QUAL-01: evita invocação automática de skills que modificam estado | ✓ Validated in Phase 1 — setup.md usa disable-model-invocation |
+| QUAL-03 error handling com `curl -f` + exit code case | Garante mensagens human-readable em vez de JSON dump | ✓ Validated in Phase 2 — todos os 5 skills de validação usam |
+| Binary output pattern: curl -f --output + [ ! -s ] check | Verifica integridade de arquivos binários (MP3, imagens) | ✓ Validated in Phase 2 — elevenlabs-tts estabelece padrão |
+| Async polling pattern: MAX_ATTEMPTS + operation_name loop | Jobs assíncronos aguardam conclusão antes de entregar resultado | ✓ Validated in Phase 2 — google-veo estabelece padrão |
 
 ## Evolution
 
@@ -87,4 +90,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-26 after Phase 1 completion*
+*Last updated: 2026-03-26 after Phase 2 completion*
