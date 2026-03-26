@@ -79,12 +79,12 @@ Plans:
   3. `/pocket-knife:ai-video-generation` e `/pocket-knife:image-to-video` exibem mensagem de progresso durante geração e salvam arquivo binário não-vazio ao concluir
   4. Skill de vídeo com polling fal.ai aguarda conclusão do job (`GET /requests/{id}`) antes de entregar o resultado — sem fire-and-forget
   5. Todos os skills ElevenLabs têm `disable-model-invocation: true` e não disparam sem invocação explícita
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: ElevenLabs skills restantes — `elevenlabs-stt` (multipart upload), `elevenlabs-dialogue`, `elevenlabs-sound-effects`
-- [ ] 04-02: ElevenLabs skills restantes — `elevenlabs-voice-cloner`, `elevenlabs-voice-changer`, `elevenlabs-music`, `elevenlabs-dubbing`, skills adicionais (AUD-09)
-- [ ] 04-03: Video skills restantes — `ai-video-generation`, `image-to-video`, skills adicionais de vídeo (Kling, Seedream, VID-04) com async polling helper
+- [x] 04-01-PLAN.md — ElevenLabs audio (wave 1): `elevenlabs-stt` (multipart->JSON, scribe_v2), `elevenlabs-dialogue` (JSON->binário, eleven_v3), `elevenlabs-sound-effects` (JSON->binário)
+- [ ] 04-02-PLAN.md — ElevenLabs audio (wave 1): `elevenlabs-voice-cloner` (multipart->JSON), `elevenlabs-voice-changer` (multipart->binário), `elevenlabs-music` (JSON->binário), `elevenlabs-dubbing` (async 3-step), `elevenlabs-voice-isolator` (AUD-09)
+- [x] 04-03-PLAN.md — Video skills (wave 1): `ai-video-generation` (Kling 1.6, t2v), `image-to-video` (Wan 2.2 5B, i2v), `p-video` (Seedance 1.0 Lite, VID-04) — todos fal.ai async queue
 
 ### Phase 5: Social, UI, SDK e CLI
 **Goal**: O plugin está completo com todos os skills portados, o CLI `npx pocket-knife init` existe para onboarding guiado e o repositório está pronto para distribuição pública
@@ -114,5 +114,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation | 1/3 | In Progress|  |
 | 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
 | 3. Image, LLM, Search e Guides | 3/3 | Complete   | 2026-03-26 |
-| 4. Audio e Video | 0/3 | Not started | - |
+| 4. Audio e Video | 2/3 | In Progress|  |
 | 5. Social, UI, SDK e CLI | 0/3 | Not started | - |

@@ -24,21 +24,21 @@
 ### Skills — Imagem (9 skills)
 
 - [x] **IMG-01**: Skill `ai-image-generation` — geração de imagem via Google Gemini (chave: `GOOGLE_API_KEY`)
-- [ ] **IMG-02**: Skill `nano-banana` — geração via Gemini Flash (chave: `GOOGLE_API_KEY`)
-- [ ] **IMG-03**: Skill `nano-banana-2` — geração via Gemini 3.1 Flash (chave: `GOOGLE_API_KEY`)
-- [ ] **IMG-04**: Skill `flux-image` — geração via fal.ai FLUX (chave: `FAL_KEY`)
-- [ ] **IMG-05**: Skill `image-upscaling` — upscaling de imagem (chave: `FAL_KEY`)
-- [ ] **IMG-06**: Skill `background-removal` — remoção de fundo (chave: `FAL_KEY`)
+- [x] **IMG-02**: Skill `nano-banana` — geração via Gemini Flash (chave: `GOOGLE_API_KEY`)
+- [x] **IMG-03**: Skill `nano-banana-2` — geração via Gemini 3.1 Flash (chave: `GOOGLE_API_KEY`)
+- [x] **IMG-04**: Skill `flux-image` — geração via fal.ai FLUX (chave: `FAL_KEY`)
+- [x] **IMG-05**: Skill `image-upscaling` — upscaling de imagem (chave: `FAL_KEY`)
+- [x] **IMG-06**: Skill `background-removal` — remoção de fundo (chave: `FAL_KEY`)
 - [x] **IMG-07**: Skill `p-image` — geração via ImagineArt/Prodia (chave: provedor específico)
 - [x] **IMG-08**: Skill `qwen-image-2` — geração via Qwen (chave: provedor específico)
 - [x] **IMG-09**: Skill `qwen-image-2-pro` — geração via Qwen Pro (chave: provedor específico)
 
 ### Skills — Vídeo (5+ skills)
 
-- [ ] **VID-01**: Skill `ai-video-generation` — geração de vídeo genérica
+- [x] **VID-01**: Skill `ai-video-generation` — geração de vídeo genérica
 - [x] **VID-02**: Skill `google-veo` — geração de vídeo via Google Veo (chave: `GOOGLE_API_KEY`)
-- [ ] **VID-03**: Skill `image-to-video` — conversão de imagem para vídeo
-- [ ] **VID-04**: Skills de vídeo adicionais conforme disponíveis no Inference (Kling, Seedream, etc.)
+- [x] **VID-03**: Skill `image-to-video` — conversão de imagem para vídeo
+- [x] **VID-04**: Skills de vídeo adicionais conforme disponíveis no Inference (Kling, Seedream, etc.)
 
 ### Skills — Áudio (10 skills)
 
@@ -153,11 +153,11 @@
 | LLM-01 | Phase 2 | Complete |
 | SRCH-01 | Phase 2 | Complete |
 | VID-02 | Phase 2 | Complete |
-| IMG-02 | Phase 3 | Pending |
-| IMG-03 | Phase 3 | Pending |
-| IMG-04 | Phase 3 | Pending |
-| IMG-05 | Phase 3 | Pending |
-| IMG-06 | Phase 3 | Pending |
+| IMG-02 | Phase 3 | Complete |
+| IMG-03 | Phase 3 | Complete |
+| IMG-04 | Phase 3 | Complete |
+| IMG-05 | Phase 3 | Complete |
+| IMG-06 | Phase 3 | Complete |
 | IMG-07 | Phase 3 | Complete |
 | IMG-08 | Phase 3 | Complete |
 | IMG-09 | Phase 3 | Complete |
@@ -177,9 +177,9 @@
 | AUD-08 | Phase 4 | Pending |
 | AUD-09 | Phase 4 | Pending |
 | AUD-10 | Phase 4 | Pending |
-| VID-01 | Phase 4 | Pending |
-| VID-03 | Phase 4 | Pending |
-| VID-04 | Phase 4 | Pending |
+| VID-01 | Phase 4 | Complete |
+| VID-03 | Phase 4 | Complete |
+| VID-04 | Phase 4 | Complete |
 | SOC-01 | Phase 5 | Pending |
 | SDK-01 | Phase 5 | Pending |
 | SDK-02 | Phase 5 | Pending |

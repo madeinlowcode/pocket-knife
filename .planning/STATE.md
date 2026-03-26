@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Ready to plan
-stopped_at: "Completed 03-01 plan (5 image skills: nano-banana, nano-banana-2, flux-image, image-upscaling, background-removal)"
-last_updated: "2026-03-26T14:46:20.592Z"
+status: Ready to execute
+stopped_at: "Completed 04-03 plan (3 video skills: ai-video-generation, image-to-video, p-video)"
+last_updated: "2026-03-26T15:39:11.335Z"
 progress:
   total_phases: 5
   completed_phases: 3
-  total_plans: 9
-  completed_plans: 8
+  total_plans: 11
+  completed_plans: 10
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-25)
 
 **Core value:** O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com suas próprias API keys, sem intermediário pago.
-**Current focus:** Phase 03 — image-llm-search-guides
+**Current focus:** Phase 04 — audio-video
 
 ## Current Position
 
-Phase: 04
-Plan: Not started
+Phase: 04 (audio-video) — EXECUTING
+Plan: 2 of 3
 
 ## Performance Metrics
 
@@ -77,6 +77,8 @@ Recent decisions affecting current work:
 - [Phase 03]: Consolidated 30+ inference.sh sub-guides into 7 comprehensive guide skills
 - [Phase 03]: Gemini native image uses inline_data extractor (candidates[].content.parts[].inline_data.data), NOT bytesBase64Encoded
 - [Phase 03]: fal.ai queue uses Authorization: Key $FAL_KEY header, NOT Bearer token
+- [Phase 04]: fal.ai video queue: Authorization Key (not Bearer), MAX_WAIT=300, POLL_INTERVAL=10
+- [Phase 04]: image-to-video: image_url field in submit body (public HTTPS required)
 
 ### Pending Todos
 
@@ -91,6 +93,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-26T14:42:13.962Z
-Stopped at: Completed 03-01 plan (5 image skills: nano-banana, nano-banana-2, flux-image, image-upscaling, background-removal)
+Last session: 2026-03-26T15:38:47.667Z
+Stopped at: Completed 04-03 plan (3 video skills: ai-video-generation, image-to-video, p-video)
 Resume file: None
