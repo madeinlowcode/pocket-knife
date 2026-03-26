@@ -7,12 +7,12 @@
 
 ### Foundation
 
-- [ ] **FOUND-01**: Plugin registrado como plugin Claude Code válido via `.claude-plugin/plugin.json` com namespace `pocket-knife`
+- [x] **FOUND-01**: Plugin registrado como plugin Claude Code válido via `.claude-plugin/plugin.json` com namespace `pocket-knife`
 - [ ] **FOUND-02**: Script `load-env.sh` carrega `~/.claude/.env` uma vez via SessionStart hook e disponibiliza variáveis de ambiente
-- [ ] **FOUND-03**: `.gitattributes` configurado com `eol=lf` para prevenir CRLF em scripts bash no Windows
-- [ ] **FOUND-04**: README.md com instruções de instalação (`/plugin install` e `/plugin marketplace add`)
-- [ ] **FOUND-05**: Licença MIT no repositório
-- [ ] **FOUND-06**: Estrutura de diretórios segue padrão do Inference: `skills/[categoria]/[skill-name]/SKILL.md`
+- [x] **FOUND-03**: `.gitattributes` configurado com `eol=lf` para prevenir CRLF em scripts bash no Windows
+- [x] **FOUND-04**: README.md com instruções de instalação (`/plugin install` e `/plugin marketplace add`)
+- [x] **FOUND-05**: Licença MIT no repositório
+- [x] **FOUND-06**: Estrutura de diretórios segue padrão do Inference: `skills/[categoria]/[skill-name]/SKILL.md`
 
 ### Setup & Onboarding
 
@@ -95,9 +95,9 @@
 
 ### Distribution
 
-- [ ] **DIST-01**: Repositório público no GitHub com estrutura de plugin válida
-- [ ] **DIST-02**: Suporte a `/plugin marketplace add` e `/plugin install` via GitHub
-- [ ] **DIST-03**: `marketplace.json` configurado em `.claude-plugin/`
+- [x] **DIST-01**: Repositório público no GitHub com estrutura de plugin válida
+- [x] **DIST-02**: Suporte a `/plugin marketplace add` e `/plugin install` via GitHub
+- [x] **DIST-03**: `marketplace.json` configurado em `.claude-plugin/`
 
 ## v2 Requirements
 
@@ -131,12 +131,12 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
 | FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
-| FOUND-05 | Phase 1 | Pending |
-| FOUND-06 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Complete |
+| FOUND-04 | Phase 1 | Complete |
+| FOUND-05 | Phase 1 | Complete |
+| FOUND-06 | Phase 1 | Complete |
 | SETUP-02 | Phase 1 | Pending |
 | SETUP-03 | Phase 1 | Pending |
 | QUAL-01 | Phase 1 | Pending |
@@ -145,9 +145,9 @@
 | QUAL-04 | Phase 1 | Pending |
 | QUAL-05 | Phase 1 | Pending |
 | QUAL-06 | Phase 1 | Pending |
-| DIST-01 | Phase 1 | Pending |
-| DIST-02 | Phase 1 | Pending |
-| DIST-03 | Phase 1 | Pending |
+| DIST-01 | Phase 1 | Complete |
+| DIST-02 | Phase 1 | Complete |
+| DIST-03 | Phase 1 | Complete |
 | IMG-01 | Phase 2 | Pending |
 | AUD-01 | Phase 2 | Pending |
 | LLM-01 | Phase 2 | Pending |

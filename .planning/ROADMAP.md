@@ -30,12 +30,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Scripts `.sh` clonam e executam sem erro em Windows (WSL/Git Bash) sem mensagem `bad interpreter`
   4. Nenhum valor de API key aparece em nenhum output ou log do Claude — apenas `****` ou mensagem de setup
   5. `/pocket-knife:setup` guia o usuário conversacionalmente para criar/atualizar `~/.claude/.env`
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: Plugin scaffold — `plugin.json`, `marketplace.json`, estrutura de diretórios, MIT license, README
-- [ ] 01-02: Env loader — `hooks/hooks.json` + `scripts/load-env.sh` com contrato de segurança (sem `set -x`, sem echo de chaves)
-- [ ] 01-03: Setup command e qualidade — `commands/setup.md`, `.gitattributes`, `allowed-tools` e `disable-model-invocation` policies
+- [x] 01-01-PLAN.md — Plugin scaffold: `.claude-plugin/plugin.json`, `marketplace.json`, estrutura `skills/` (9 categorias), `.gitattributes`, `README.md`, `LICENSE`, `scripts/validate-plugin.sh`
+- [ ] 01-02-PLAN.md — Env loader: `hooks/hooks.json` (SessionStart) + `scripts/load-env.sh` com contrato de segurança QUAL-04 (sem `set -x`, sem echo de valores)
+- [ ] 01-03-PLAN.md — Setup command e qualidade: `commands/setup.md` com `disable-model-invocation: true`, resolução híbrida de chaves (SETUP-03), checkpoint de verificação humana
 
 ### Phase 2: Validation Batch
 **Goal**: Um skill funcional por provedor principal valida o round-trip env loader → curl → API e estabelece templates reutilizáveis para os 80+ skills restantes
@@ -111,7 +111,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/3 | Not started | - |
+| 1. Foundation | 1/3 | In Progress|  |
 | 2. Validation Batch | 0/2 | Not started | - |
 | 3. Image, LLM, Search e Guides | 0/3 | Not started | - |
 | 4. Audio e Video | 0/3 | Not started | - |
