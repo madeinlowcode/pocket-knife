@@ -1,0 +1,13 @@
+{
+  "name": "pocket-knife",
+  "version": "1.0.0",
+  "description": "85+ AI skills (image, video, audio, LLM, search) using your own API keys — no paid proxy.",
+  "author": {
+    "name": "pocket-knife contributors",
+    "url": "https://github.com/pocket-knife-dev/pocket-knife"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/pocket-knife-dev/pocket-knife",
+  "homepage": "https://github.com/pocket-knife-dev/pocket-knife#readme",
+  "keywords": ["ai", "skills", "image", "audio", "video", "llm", "search", "claude-code", "plugin"]
+}

@@ -1,0 +1,9 @@
+# Prevent CRLF line endings in shell scripts and text files.
+# CRLF in .sh files causes "bad interpreter" errors on Linux/macOS/WSL.
+* text=auto
+
+*.sh    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
