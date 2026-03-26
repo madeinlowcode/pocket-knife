@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Validation Batch** - Um skill por provedor para validar auth, curl templates e política de invocação (completed 2026-03-26)
 - [x] **Phase 3: Image, LLM, Search e Guides** - Skills de alta demanda e guides sem API key (completed 2026-03-26)
 - [x] **Phase 4: Audio e Video** - Skills ElevenLabs (async audio) e vídeo (async polling, binary output) (completed 2026-03-26)
-- [ ] **Phase 5: Social, UI, SDK e CLI** - Skills restantes e CLI de onboarding npx
+- [x] **Phase 5: Social, UI, SDK e CLI** - Skills restantes e CLI de onboarding npx (completed 2026-03-26)
 
 ## Phase Details
 
@@ -100,7 +100,7 @@ Plans:
 
 Plans:
 - [x] 05-01-PLAN.md — Social + SDK skills: `twitter-automation` (OAuth 1.0a HMAC-SHA1 via Node.js helper), `javascript-sdk` (guide), `python-sdk` (guide)
-- [ ] 05-02-PLAN.md — UI skills: `agent-ui`, `chat-ui`, `tools-ui`, `widgets-ui` (todos guides, allowed-tools: [])
+- [x] 05-02-PLAN.md — UI skills: `agent-ui`, `chat-ui`, `tools-ui`, `widgets-ui` (todos guides, allowed-tools: [])
 - [x] 05-03-PLAN.md — CLI `npx pocket-knife init`: `cli/package.json` (ESM), `cli/bin/init.js`, validacao de chaves (SETUP-01, SETUP-04)
 
 ## Progress
@@ -114,4 +114,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Validation Batch | 2/2 | Complete   | 2026-03-26 |
 | 3. Image, LLM, Search e Guides | 3/3 | Complete   | 2026-03-26 |
 | 4. Audio e Video | 3/3 | Complete   | 2026-03-26 |
-| 5. Social, UI, SDK e CLI | 2/3 | In Progress|  |
+| 5. Social, UI, SDK e CLI | 3/3 | Complete   | 2026-03-26 |
