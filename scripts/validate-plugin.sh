@@ -57,7 +57,7 @@ if $FULL; then
   check "load-env.sh has security contract" \
     "$(grep -q 'SECURITY CONTRACT' scripts/load-env.sh 2>/dev/null && echo OK || echo MISSING)"
   check "load-env.sh never uses set -x" \
-    "$(! grep -q 'set -x' scripts/load-env.sh 2>/dev/null && echo OK || echo 'SECURITY VIOLATION: set -x found')"
+    "$(! grep -q '^[^#]*set -x' scripts/load-env.sh 2>/dev/null && echo OK || echo 'SECURITY VIOLATION: set -x found')"
   check "setup.md has disable-model-invocation" \
     "$(grep -q 'disable-model-invocation' commands/setup.md 2>/dev/null && echo OK || echo MISSING)"
 fi
