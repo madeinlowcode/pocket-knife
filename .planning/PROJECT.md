@@ -71,6 +71,10 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 | QUAL-03 error handling com `curl -f` + exit code case | Garante mensagens human-readable em vez de JSON dump | ✓ Validated in Phase 2 — todos os 5 skills de validação usam |
 | Binary output pattern: curl -f --output + [ ! -s ] check | Verifica integridade de arquivos binários (MP3, imagens) | ✓ Validated in Phase 2 — elevenlabs-tts estabelece padrão |
 | Async polling pattern: MAX_ATTEMPTS + operation_name loop | Jobs assíncronos aguardam conclusão antes de entregar resultado | ✓ Validated in Phase 2 — google-veo estabelece padrão |
+| fal.ai async polling: POST /fal-ai/... → queue_id → GET /requests/{id} | Skills de imagem (flux, upscaling, background-removal) aguardam job via polling | ✓ Validated in Phase 3 — nano-banana-2, flux-image, image-upscaling, background-removal |
+| DashScope Bearer auth: Authorization: Bearer + DashScope API | Autenticação para modelos qwen (Alibaba) via Bearer token | ✓ Validated in Phase 3 — qwen-image-2, qwen-image-2-pro |
+| Guide skills: allowed-tools: [] (sem curl), sem API key | Guides são documentos puros de referência, zero side-effects | ✓ Validated in Phase 3 — 7 guides (prompting, design, video, writing, social, product, content) |
+| Skill content < 300 linhas | Conteúdo extenso em reference docs para evitar budget overflow | ✓ Validated in Phase 3 — todos os 15 SKILL.md < 300 linhas |
 
 ## Evolution
 
@@ -90,4 +94,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-26 after Phase 2 completion*
+*Last updated: 2026-03-26 after Phase 3 completion*
