@@ -1,7 +1,7 @@
 {
   "name": "pocket-knife",
   "version": "1.0.0",
-  "description": "85+ AI skills (image, video, audio, LLM, search) using your own API keys — no paid proxy.",
+  "description": "84 AI skills (image, video, audio, LLM, search, guides) using your own API keys — no paid proxy.",
   "author": {
     "name": "pocket-knife contributors",
     "url": "https://github.com/madeinlowcode/pocket-knife"

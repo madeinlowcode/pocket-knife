@@ -1,6 +1,6 @@
 # Pocket-Knife
 
-**38 AI skills for Claude Code using your own API keys — no paid proxy, no middleman.**
+**84 AI skills for Claude Code using your own API keys — no paid proxy, no middleman.**
 
 Generate images, create videos, synthesize speech, search the web, post tweets, and more. Each skill calls the provider API directly via `curl` using keys you configure once in `~/.claude/.env`.
 
@@ -84,7 +84,7 @@ GOOGLE_CLOUD_PROJECT=your-project-id
 
 ---
 
-## Skills (38 total)
+## Skills (84 total)
 
 ### Image Generation (9 skills)
 
@@ -136,33 +136,109 @@ GOOGLE_CLOUD_PROJECT=your-project-id
 |-------|-------------|-------------|
 | `twitter-automation` | Post tweets, like, retweet via X API v2 | 4 `X_*` OAuth keys |
 
-### SDK Guides (2 skills)
+### Tools (2 skills)
+
+| Skill | What it does | Key Required |
+|-------|-------------|-------------|
+| `python-executor` | Execute Python code inline (data analysis, file processing) | None (local) |
+| `remotion-render` | Render videos with React/Remotion | None (local, npx) |
+
+### SDK & UI Guides (6 skills)
 
 | Skill | What it covers |
 |-------|---------------|
 | `javascript-sdk` | Building AI apps with JS/TS — fetch, streaming, error handling |
 | `python-sdk` | Building AI apps with Python — requests, async, providers |
-
-### UI Guides (4 skills)
-
-| Skill | What it covers |
-|-------|---------------|
 | `agent-ui` | Building AI agent interfaces with React |
 | `chat-ui` | Chat interface patterns and components |
 | `tools-ui` | Tool result rendering and display |
 | `widgets-ui` | Reusable AI-powered widget components |
 
-### Reference Guides (7 skills) — no API key needed
+### Design Guides (10 skills)
 
 | Skill | Topic |
 |-------|-------|
-| `prompting-guide` | Prompt engineering techniques (chain-of-thought, few-shot, etc.) |
-| `design-guide` | AI-assisted design workflows and tools |
+| `app-store-screenshots` | App store screenshot composition and A/B testing |
+| `book-cover-design` | Book cover design by genre, typography, color psychology |
+| `character-design-sheet` | Character turnaround, expressions, proportions |
+| `data-visualization` | Chart selection, color accessibility, data storytelling |
+| `email-design` | Responsive email templates, dark mode, deliverability |
+| `landing-page-design` | Hero sections, CTAs, fold strategy, conversion optimization |
+| `logo-design-guide` | Scalability, color variations, typography pairing |
+| `og-image-design` | Open Graph images (1200x630), platform previews |
+| `pitch-deck-visuals` | Slide structure, data presentation, visual language |
+| `youtube-thumbnail-design` | Face prominence, text contrast, CTR optimization |
+
+### Video Guides (5 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `ai-marketing-videos` | Script structure, hooks, platform-specific formats |
+| `explainer-video-guide` | Problem-solution-benefit scripts, animation styles |
+| `storyboard-creation` | Panel layout, shot composition, timing annotations |
+| `talking-head-production` | Lighting, framing, audio, teleprompter, editing |
+| `video-ad-specs` | Platform specs (YouTube/Meta/TikTok/LinkedIn) |
+
+### Writing Guides (5 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `case-study-writing` | Challenge/solution/results structure, metrics |
+| `newsletter-curation` | Content sourcing, subject lines, growth tactics |
+| `press-release-writing` | Inverted pyramid, headline formulas, AP style |
+| `seo-content-brief` | Keyword research, search intent, meta tags |
+| `technical-blog-writing` | Problem/context/solution/code structure |
+
+### Social Media Guides (4 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `ai-social-media-content` | Platform formats, content calendar, hashtag strategy |
+| `linkedin-content` | Post types, hook formulas, algorithm tips |
+| `social-media-carousel` | Slide structure, swipe hooks, platform dimensions |
+| `twitter-thread-creation` | Hook formulas, thread structure, engagement tactics |
+
+### Product Guides (4 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `competitor-teardown` | Feature matrix, pricing analysis, SWOT |
+| `customer-persona` | Demographics, jobs-to-be-done, buying triggers |
+| `product-changelog` | Version formatting, audience-appropriate language |
+| `product-hunt-launch` | Timing, assets, launch day checklist |
+
+### AI & Automation Guides (13 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `prompting-guide` | Prompt engineering (chain-of-thought, few-shot, etc.) |
+| `video-prompting-guide` | Video model prompts (Kling, Veo, Wan, Seedance) |
+| `design-guide` | AI-assisted design workflows |
 | `video-guide` | Video production with AI models |
-| `writing-guide` | AI-powered content writing frameworks |
-| `social-guide` | Social media content strategy with AI |
-| `product-guide` | AI in product development and strategy |
-| `content-guide` | Content repurposing and multi-format pipelines |
+| `writing-guide` | AI content writing frameworks |
+| `social-guide` | Social media strategy with AI |
+| `product-guide` | AI in product development |
+| `content-guide` | Content repurposing pipelines |
+| `content-repurposing` | Atomic content model, format adaptation |
+| `ai-content-pipeline` | One piece to multiple formats workflow |
+| `ai-podcast-creation` | Script generation, voice synthesis, distribution |
+| `ai-product-photography` | Background removal + image generation workflow |
+| `ai-automation-workflows` | Chaining skills together, batch processing |
+
+### Agent & Developer Guides (7 skills)
+
+| Skill | Topic |
+|-------|-------|
+| `agent-browser` | Browser automation with Playwright/Puppeteer |
+| `agentic-browser` | Autonomous browser navigation with AI |
+| `agent-tools` | Tool use patterns, MCP servers, function calling |
+| `ai-rag-pipeline` | RAG pipeline: chunking, embeddings, vector stores |
+| `ai-voice-cloning` | Voice sample preparation, ethical considerations |
+| `ai-music-generation` | Genre prompting, duration control |
+| `ai-avatar-video` | AI avatar creation, image-to-video workflow |
+| `dialogue-audio` | Multi-speaker dialogue production |
+| `text-to-speech` | Voice selection, SSML, pronunciation control |
+| `speech-to-text` | Audio preparation, accuracy tips |
 
 ---
 
@@ -290,7 +366,7 @@ pocket-knife/
 | **Cost** | Paid proxy (per-request billing) | Free — you pay providers directly |
 | **API calls** | Via `infsh app run` CLI | Direct `curl` to provider |
 | **API keys** | Managed by Inference | Your own keys in `~/.claude/.env` |
-| **Skills** | 85+ | 38 (and growing) |
+| **Skills** | 85+ | 84 |
 | **License** | MIT | MIT |
 | **Vendor lock-in** | Yes (infsh CLI required) | None (standard curl) |
 

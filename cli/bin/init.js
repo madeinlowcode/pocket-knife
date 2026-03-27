@@ -18,7 +18,7 @@ ${chalk.bold.cyan(' |  __/ (_) | (__|   <  __/ ||_____| . \\| | | | |  _|  __/')
 ${chalk.bold.cyan(' |_|   \\___/ \\___|_|\\_\\___|\\__|     |_|\\_\\_| |_|_|_|  \\___|')}
 `;
   console.log(banner);
-  console.log(chalk.dim('  38 AI skills for Claude Code — your keys, no middleman'));
+  console.log(chalk.dim('  84 AI skills for Claude Code — your keys, no middleman'));
   console.log(chalk.dim(`  v1.0.0 | github.com/madeinlowcode/pocket-knife\n`));
 }
 
