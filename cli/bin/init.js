@@ -9,9 +9,22 @@ import { homedir } from 'node:os';
 import { join } from 'node:path';
 import { confirm } from '@inquirer/prompts';
 
+function showBanner() {
+  const banner = `
+${chalk.bold.cyan('  ____            _        _        _  __      _  __     ')}
+${chalk.bold.cyan(' |  _ \\ ___   ___| | _____| |_     | |/ /_ __ (_)/ _| ___ ')}
+${chalk.bold.cyan(' | |_) / _ \\ / __| |/ / _ \\ __|____| \' /| \'_ \\| | |_ / _ \\')}
+${chalk.bold.cyan(' |  __/ (_) | (__|   <  __/ ||_____| . \\| | | | |  _|  __/')}
+${chalk.bold.cyan(' |_|   \\___/ \\___|_|\\_\\___|\\__|     |_|\\_\\_| |_|_|_|  \\___|')}
+`;
+  console.log(banner);
+  console.log(chalk.dim('  38 AI skills for Claude Code — your keys, no middleman'));
+  console.log(chalk.dim(`  v1.0.0 | github.com/madeinlowcode/pocket-knife\n`));
+}
+
 async function main() {
-  console.log(chalk.bold.blue('\npocket-knife init'));
-  console.log('Configure your AI provider keys in ~/.claude/.env\n');
+  showBanner();
+  console.log(chalk.bold('  Configure your AI provider keys in ~/.claude/.env\n'));
 
   // Check Node.js version
   const nodeVersion = parseInt(process.versions.node.split('.')[0]);
