@@ -27,7 +27,7 @@ Or via marketplace:
 **Option A — Interactive CLI (recommended for first setup):**
 
 ```bash
-npx pocket-knife init
+npx github:madeinlowcode/pocket-knife
 ```
 
 The CLI asks which skill categories you want, prompts only the relevant API keys, validates them, and writes `~/.claude/.env`.
