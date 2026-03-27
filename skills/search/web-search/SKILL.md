@@ -1,8 +1,8 @@
 ---
 name: web-search
-description: "Search the web via Tavily or Exa. Returns AI answer + sources. Requires: TAVILY_API_KEY or EXA_API_KEY"
+description: "Search the web via Tavily or Exa. Requires: TAVILY_API_KEY or EXA_API_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Search the web using your configured search API. Uses Tavily if available, falls back to Exa.

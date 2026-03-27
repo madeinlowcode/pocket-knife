@@ -2,7 +2,7 @@
 name: background-removal
 description: "Remove image background with BiRefNet via fal.ai. Requires: FAL_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Remove the background from an image using BiRefNet via fal.ai async queue.

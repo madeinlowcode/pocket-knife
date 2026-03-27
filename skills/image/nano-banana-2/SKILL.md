@@ -2,7 +2,7 @@
 name: nano-banana-2
 description: "Generate images with Gemini 3.1 Flash Image. Fast, 4K quality. Requires: GOOGLE_API_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Generate an image using the Google Gemini 3.1 Flash Image Preview API.

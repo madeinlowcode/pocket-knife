@@ -2,7 +2,7 @@
 name: flux-image
 description: "Generate images with FLUX schnell via fal.ai. Fast generation. Requires: FAL_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Generate an image using the FLUX schnell model via fal.ai async queue.

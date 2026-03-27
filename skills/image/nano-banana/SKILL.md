@@ -2,7 +2,7 @@
 name: nano-banana
 description: "Generate images with Gemini 3 Pro Image. High quality. Requires: GOOGLE_API_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Generate an image using the Google Gemini 3 Pro Image Preview API.

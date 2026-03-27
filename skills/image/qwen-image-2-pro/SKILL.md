@@ -1,8 +1,8 @@
 ---
 name: qwen-image-2-pro
-description: "Generate images with Qwen Image 2.0 Pro via Alibaba DashScope. Higher quality. Requires: DASHSCOPE_API_KEY"
+description: "Generate images with Qwen 2.0 Pro via DashScope. Requires: DASHSCOPE_API_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Generate an image using the Qwen Image 2.0 Pro model via Alibaba DashScope International API.

@@ -2,7 +2,7 @@
 name: p-image
 description: "Generate images with Pruna P-Image via fal.ai. Requires: FAL_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Generate an image using the Pruna P-Image model via fal.ai async queue.

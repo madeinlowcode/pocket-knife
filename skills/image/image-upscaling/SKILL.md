@@ -2,7 +2,7 @@
 name: image-upscaling
 description: "Upscale images with Topaz via fal.ai. 2x-4x resolution boost. Requires: FAL_KEY"
 allowed-tools: Bash(curl *)
-disable-model-invocation: false
+disable-model-invocation: true
 ---
 
 Upscale an image using Topaz Image Upscaler via fal.ai async queue.
