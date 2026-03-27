@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Pocket-Knife é um projeto open source que oferece as mesmas 85+ skills do inference.sh, porém sem depender da plataforma paga da Inference. Em vez de usar o CLI `infsh` que cobra pelo uso das APIs, o usuário configura suas próprias API keys (Google, ElevenLabs, xAI, fal.ai, etc.) num arquivo `~/.claude/.env` centralizado. Cada skill chama diretamente a API do provedor usando as chaves do usuário. Distribuído via GitHub e marketplace de skills do Claude Code.
+Pocket-Knife é um plugin open source para Claude Code com 38 skills de IA (imagem, vídeo, áudio, LLM, web search, social, UI, SDK, guides) portadas do inference.sh. O usuário configura suas próprias API keys (Google, ElevenLabs, fal.ai, DashScope, Tavily, Exa, X/Twitter) em `~/.claude/.env` e cada skill chama diretamente a API do provedor via curl — sem intermediário pago. Inclui CLI interativa (`npx pocket-knife init`) e skill de setup conversacional.
 
 ## Core Value
 
@@ -38,15 +38,14 @@ O usuário usa 85+ skills de IA (imagem, vídeo, áudio, LLM, web search) com su
 - Recriar a plataforma inference.sh — apenas as skills, não o backend
 - Suporte a provedores que não têm API pública acessível com chave própria
 
-## Context
+## Current State (v1.0 shipped 2026-03-27)
 
-- O projeto inference.sh (github.com/inference-sh/skills) tem licença MIT, permitindo uso livre do código das skills
-- Cada skill do Inference é um único `SKILL.md` com frontmatter (`name`, `description`, `allowed-tools`) + instruções em markdown
-- O padrão atual do Inference é: `infsh app run [provider/model] --input '{...}'` — nosso trabalho é substituir isso por chamadas diretas via `curl`, SDKs nativos ou scripts bash
-- O arquivo `~/.claude/.env` não conflita com `.env` de projetos locais por estar em diretório global diferente
-- Provedores principais: Google (Gemini), ElevenLabs, xAI (Grok), ByteDance (Seedream), fal.ai (FLUX, Reve), Tavily, Exa
-- A estrutura de diretórios do Inference segue: `tools/[categoria]/[skill-name]/SKILL.md`
-- O plugin se registra via `.claude-plugin/plugin.json` com metadados e lista de skills
+- 38 SKILL.md files across 9 categories (image, audio, video, llm, search, social, sdk, ui, guides)
+- 6,417 LOC (markdown + bash + JS), 104 files, 73 commits
+- 7 provedores: Google (Gemini/Imagen/Veo), ElevenLabs (9 skills), fal.ai (FLUX/Kling/Wan/Seedance), DashScope (Qwen), Tavily, Exa, X/Twitter
+- CLI: `npx pocket-knife init` (ESM Node.js, @inquirer/prompts, chalk, dotenv, fs-extra)
+- Plugin: `.claude-plugin/plugin.json` com namespace `pocket-knife`, SessionStart hook para env loading
+- Licença MIT, compatível com inference.sh original
 
 ## Constraints
 
@@ -93,4 +92,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-26 after Phase 3 completion*
+*Last updated: 2026-03-27 after v1.0 milestone*

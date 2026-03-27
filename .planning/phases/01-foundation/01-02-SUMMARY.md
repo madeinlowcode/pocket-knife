@@ -107,6 +107,15 @@ Each task was committed atomically:
 - SessionStart hook will fire load-env.sh once per Claude Code session
 - All skills can access API keys from ~/.claude/.env via the exported variables
 
+## Self-Check: PASSED
+
+- SUMMARY.md exists
+- hooks/hooks.json exists
+- scripts/load-env.sh exists
+- Task 1 commit (056b111) found
+- Task 2 commit (9531752) found
+- Metadata commit (2fd8e73) found
+
 ---
 *Phase: 01-foundation*
 *Plan: 02*
