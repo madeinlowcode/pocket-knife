@@ -1,6 +1,6 @@
 ---
 name: python-executor
-description: Execute Python scripts inline for data analysis, file processing, calculations, and scraping.
+description: "Run Python code for data analysis, CSV processing, web scraping, file manipulation"
 allowed-tools: Bash(python3 *)
 disable-model-invocation: true
 ---

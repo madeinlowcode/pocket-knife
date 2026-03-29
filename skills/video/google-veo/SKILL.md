@@ -1,6 +1,6 @@
 ---
 name: google-veo
-description: "Generate video with Google Veo via Vertex AI. Requires: gcloud CLI + GOOGLE_CLOUD_PROJECT env var"
+description: "Generate high-quality video with Google Veo 3.1. Use for: cinematic, professional video"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

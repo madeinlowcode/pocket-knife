@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-dialogue
-description: "Multi-speaker dialogue audio via ElevenLabs. Up to 10 voices. Requires: ELEVENLABS_API_KEY"
+description: "Create multi-speaker dialogue audio. Use for: podcasts, conversations, audiobook scenes"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

@@ -1,6 +1,6 @@
 ---
 name: web-search
-description: "Search the web via Tavily or Exa. Requires: TAVILY_API_KEY or EXA_API_KEY"
+description: "Search the web for current info. Use for: research, fact-check, find URLs, latest news"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

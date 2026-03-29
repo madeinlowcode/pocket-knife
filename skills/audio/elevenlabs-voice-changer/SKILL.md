@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-voice-changer
-description: "Transform voice in audio to another voice via ElevenLabs STS. Requires: ELEVENLABS_API_KEY"
+description: "Change voice in audio file to another voice. Use for: voice swap, dubbing, anonymization"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

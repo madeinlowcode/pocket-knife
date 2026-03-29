@@ -1,6 +1,6 @@
 ---
 name: p-video
-description: "Generate video via fal.ai Seedance 1.0 Lite. Fast and economical. Requires: FAL_KEY"
+description: "Fast budget video generation. Use for: quick video drafts, prototypes, social clips"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

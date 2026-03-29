@@ -1,6 +1,6 @@
 ---
 name: background-removal
-description: "Remove image background with BiRefNet via fal.ai. Requires: FAL_KEY"
+description: "Remove image background, make transparent PNG. Use for: product photos, cutouts, masks"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

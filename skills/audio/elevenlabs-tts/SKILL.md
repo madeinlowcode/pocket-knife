@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-tts
-description: "Text-to-speech via ElevenLabs. 32 languages, 22+ voices. Requires: ELEVENLABS_API_KEY"
+description: "Convert text to speech, narrate, voiceover. 32 languages, 22+ voices. Use for: TTS, audio"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

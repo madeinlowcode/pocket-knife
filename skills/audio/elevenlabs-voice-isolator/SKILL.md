@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-voice-isolator
-description: "Isolate voice from audio/remove background noise via ElevenLabs. Requires: ELEVENLABS_API_KEY"
+description: "Isolate voice, remove background noise from audio. Use for: clean audio, vocal extraction"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

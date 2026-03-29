@@ -1,6 +1,6 @@
 ---
 name: ai-video-generation
-description: "Generate video from text via fal.ai Kling 1.6. Async queue. Requires: FAL_KEY"
+description: "Create video from text prompt. Use for: AI video, clips, short films, social media video"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

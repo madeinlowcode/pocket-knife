@@ -1,6 +1,6 @@
 ---
 name: image-upscaling
-description: "Upscale images with Topaz via fal.ai. 2x-4x resolution boost. Requires: FAL_KEY"
+description: "Upscale, enhance, increase image resolution 2x-4x. Use for: blurry, small, low-res images"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

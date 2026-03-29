@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-sound-effects
-description: "Generate sound effects audio via ElevenLabs. Text description to MP3. Requires: ELEVENLABS_API_KEY"
+description: "Generate sound effects from description. Use for: SFX, game audio, video soundscape"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

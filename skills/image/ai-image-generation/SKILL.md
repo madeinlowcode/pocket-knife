@@ -1,6 +1,6 @@
 ---
 name: ai-image-generation
-description: "Generate images with Imagen 4 via Google AI. Requires: GOOGLE_API_KEY in ~/.claude/.env"
+description: "Create images, photos, art with Google Imagen 4. Use for: generate image, make picture, AI art"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

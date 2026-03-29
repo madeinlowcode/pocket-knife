@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-dubbing
-description: "Dub video/audio to another language via ElevenLabs. Async job. Requires: ELEVENLABS_API_KEY"
+description: "Translate and dub audio/video to another language. Use for: localization, multilingual"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

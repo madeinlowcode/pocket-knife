@@ -1,6 +1,6 @@
 ---
 name: p-image
-description: "Generate images with Pruna P-Image via fal.ai. Requires: FAL_KEY"
+description: "Fast budget image generation with Pruna. Use when: quick mockups, bulk generation needed"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

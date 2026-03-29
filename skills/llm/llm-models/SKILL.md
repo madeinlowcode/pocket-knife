@@ -1,6 +1,6 @@
 ---
 name: llm-models
-description: "Chat with Claude, Gemini, Kimi or GLM using your API keys. Auto-selects available provider."
+description: "Chat with external LLMs (Gemini, Kimi, GLM). Use when you need a second AI opinion"
 allowed-tools: Bash(curl *)
 disable-model-invocation: false
 ---

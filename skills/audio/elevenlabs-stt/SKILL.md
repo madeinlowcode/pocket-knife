@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-stt
-description: "Speech-to-text via ElevenLabs Scribe v2. Transcribes audio files. Requires: ELEVENLABS_API_KEY"
+description: "Transcribe audio to text, speech recognition. Use for: transcription, subtitles, dictation"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

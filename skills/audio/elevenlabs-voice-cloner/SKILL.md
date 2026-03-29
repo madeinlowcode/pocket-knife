@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-voice-cloner
-description: "Clone a voice with ElevenLabs. Upload audio sample, get voice_id. Requires: ELEVENLABS_API_KEY"
+description: "Clone a voice from audio sample. Use for: custom voice, brand voice, personalized TTS"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

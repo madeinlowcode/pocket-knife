@@ -1,6 +1,6 @@
 ---
 name: remotion-render
-description: Render videos with React using Remotion — setup, compositions, rendering, config.
+description: "Create videos with React/Remotion. Use for: programmatic video, data-driven animations"
 allowed-tools: Bash(npx *)
 disable-model-invocation: true
 ---

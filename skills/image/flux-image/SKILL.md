@@ -1,6 +1,6 @@
 ---
 name: flux-image
-description: "Generate images with FLUX schnell via fal.ai. Fast generation. Requires: FAL_KEY"
+description: "Generate images with FLUX. Great for: concept art, illustrations, creative styles"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

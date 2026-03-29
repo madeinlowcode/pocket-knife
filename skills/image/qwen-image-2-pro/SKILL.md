@@ -1,6 +1,6 @@
 ---
 name: qwen-image-2-pro
-description: "Generate images with Qwen 2.0 Pro via DashScope. Requires: DASHSCOPE_API_KEY"
+description: "Premium image generation with Qwen Pro. Best quality for text rendering in images"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

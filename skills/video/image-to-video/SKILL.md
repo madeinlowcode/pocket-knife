@@ -1,6 +1,6 @@
 ---
 name: image-to-video
-description: "Animate an image into video via fal.ai Wan 2.2. Async queue. Requires: FAL_KEY"
+description: "Animate image into video. Use for: bring photo to life, motion from still image"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---

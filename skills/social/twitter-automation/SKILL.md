@@ -1,6 +1,6 @@
 ---
 name: twitter-automation
-description: "Post tweets, like, retweet via X/Twitter API v2 OAuth 1.0a. Requires: 4 X_ env vars."
+description: "Post tweets, like, retweet on X/Twitter. Use for: social media automation, posting"
 allowed-tools: Bash(node *)
 disable-model-invocation: true
 ---

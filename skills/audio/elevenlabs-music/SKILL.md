@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-music
-description: "Generate music from text prompt via ElevenLabs. Returns MP3. Requires: ELEVENLABS_API_KEY"
+description: "Generate music from text description. Use for: background music, jingles, soundtracks"
 allowed-tools: Bash(curl *)
 disable-model-invocation: true
 ---
